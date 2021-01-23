@@ -2,7 +2,7 @@
 
 ### this repository is used to Identify the distribution of date column
     
-  - main.py: execute methods to find frequency in date columns
+  - main.py: execute main method
   - get_frequency.py: contains method to compute frequency in date columns
  
  requirement:
