@@ -26,8 +26,6 @@ def compute_frequency(date_column_series):
         freq_series = date_column_series.sort_values().dt.date
         difference = freq_series - freq_series.shift(1)
         days = difference.mode().iloc[0].days
-
-        print('days',days)
         
         if days > 92:
             frequency = 'YS(Year start)'
