@@ -12,3 +12,5 @@
  to start the app run below command:
  
  ```streamlit run app.py ```
+
+![image info](./screen.png)
